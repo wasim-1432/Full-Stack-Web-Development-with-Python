@@ -1,0 +1,16 @@
+print("Total number of the players")
+n=int(input())
+players={}
+for i in range(n):
+    print("Enter the name of the player")
+    name=input()
+    print("Enter the number of the matches played")
+    a=int(input())
+    print("Enter the total runs scored by the player")
+    b=int(input())
+    print("Enter the half centuries of the players")
+    c=int(input())
+    print("Enter the centuries of the player")
+    d=int(input())
+    players[name]=(a,b,c,d)
+print(players)
